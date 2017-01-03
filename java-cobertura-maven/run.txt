@@ -1,0 +1,5 @@
+-- To generate report for cobertura reports
+mvn cobertura:cobertura
+
+-- Creating Maven project site
+mvn site

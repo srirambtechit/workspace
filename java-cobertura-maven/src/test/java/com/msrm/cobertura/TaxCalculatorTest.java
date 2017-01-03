@@ -1,4 +1,4 @@
-package com.msrm.cobertura.test;
+package com.msrm.cobertura;
 
 import static org.junit.Assert.*;
 

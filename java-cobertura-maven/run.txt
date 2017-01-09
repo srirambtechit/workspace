@@ -3,3 +3,22 @@ mvn cobertura:cobertura
 
 -- Creating Maven project site
 mvn site
+
+
+Goals Overview
+cobertura:check Check the coverage percentages for unit tests from the last instrumentation, and optionally fail the 
+build if the targets are not met.
+
+cobertura:check-integration-test Check the coverage percentages for unit tests and integration tests from the last 
+instrumentation, and optionally fail the build if the targets are not met.
+
+cobertura:clean Clean up the files that Cobertura Maven Plugin has created during instrumentation.
+
+cobertura:dump-datafile Output the contents of Cobertura's data file to the command line.
+
+cobertura:instrument Instrument the compiled classes.
+
+cobertura:cobertura Instrument the compiled classes, run the unit tests and generate a Cobertura report.
+
+cobertura:cobertura-integration-test Instrument the compiled classes, run the unit tests and integration tests and 
+generate a Cobertura report.

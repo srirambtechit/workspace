@@ -44,10 +44,5 @@ public class TaxCalculator {
 		return tax;
 	}
 
-	public static void main(String[] args) {
-		float salary = 750_000;
-		System.out.println(computeTaxAmoute(salary));
-		System.out.println(computeTax(salary));
-	}
 
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:saaj="http://server.calc.ws.msrm.com/">
+	<SOAP-ENV:Header />
+	<SOAP-ENV:Body>
+		<saaj:add xmlns:saaj="http://server.calc.ws.msrm.com">
+			<arg0>32.12</arg0>
+			<arg1>12.01</arg1>
+		</saaj:add>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
